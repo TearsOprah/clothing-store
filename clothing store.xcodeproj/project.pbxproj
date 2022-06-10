@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B34EFB2B28493282003DC393 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34EFB2A28493282003DC393 /* CategoryCell.swift */; };
+		B3B9FEB728535AFD005DF112 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B9FEB628535AFD005DF112 /* Category.swift */; };
+		B3B9FEBA28535CDF005DF112 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B9FEB928535CDF005DF112 /* DataService.swift */; };
 		B3C95EB7284925E900FBC5EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C95EB6284925E900FBC5EE /* AppDelegate.swift */; };
 		B3C95EB9284925E900FBC5EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C95EB8284925E900FBC5EE /* SceneDelegate.swift */; };
 		B3C95EBB284925E900FBC5EE /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C95EBA284925E900FBC5EE /* CategoriesVC.swift */; };
@@ -18,6 +20,8 @@
 
 /* Begin PBXFileReference section */
 		B34EFB2A28493282003DC393 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		B3B9FEB628535AFD005DF112 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		B3B9FEB928535CDF005DF112 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		B3C95EB3284925E900FBC5EE /* clothing store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "clothing store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3C95EB6284925E900FBC5EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3C95EB8284925E900FBC5EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +54,7 @@
 		B34EFB26284931A5003DC393 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B3B9FEB628535AFD005DF112 /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -60,6 +65,14 @@
 				B34EFB2A28493282003DC393 /* CategoryCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		B3B9FEB828535CB6005DF112 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B3B9FEB928535CDF005DF112 /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		B3C95EAA284925E900FBC5EE = {
@@ -81,6 +94,7 @@
 		B3C95EB5284925E900FBC5EE /* clothing store */ = {
 			isa = PBXGroup;
 			children = (
+				B3B9FEB828535CB6005DF112 /* Services */,
 				B34EFB27284931DE003DC393 /* View */,
 				B34EFB26284931A5003DC393 /* Model */,
 				B34EFB2528493198003DC393 /* Controller */,
@@ -166,7 +180,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3C95EBB284925E900FBC5EE /* CategoriesVC.swift in Sources */,
+				B3B9FEB728535AFD005DF112 /* Category.swift in Sources */,
 				B3C95EB7284925E900FBC5EE /* AppDelegate.swift in Sources */,
+				B3B9FEBA28535CDF005DF112 /* DataService.swift in Sources */,
 				B3C95EB9284925E900FBC5EE /* SceneDelegate.swift in Sources */,
 				B34EFB2B28493282003DC393 /* CategoryCell.swift in Sources */,
 			);
